@@ -12,7 +12,7 @@ import csv
 
 # Creer le graphe a partir d'un fichier CSV
 G = nx.Graph()
-with open('../src/chemins.csv', 'r') as f:
+with open('chemins.csv', 'r') as f:
     reader = csv.reader(f)
     next(reader) # sauter l'en-tete
     for row in reader:
