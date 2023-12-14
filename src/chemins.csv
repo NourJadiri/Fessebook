@@ -1,0 +1,50 @@
+ville_depart,ville_arrivee,type_transport,temps_parcours,cout, distance
+Paris,Lyon,train,4,30,400
+Lyon,Marseille,train,3,25,300
+Marseille,Nice,train,2,20,250
+Lyon,Toulouse,train,5,40,500
+Toulouse,Bordeaux,train,6,50,600
+Bordeaux,Nantes,train,5,35,400
+Nantes,Paris,train,7,60,700
+Marseille,Montpellier,train,1,10,150
+Montpellier,Toulouse,train,2,15,200
+Paris,Orleans,voiture,1.5,15,150
+Orleans,Tours,voiture,1,10,100
+Tours,Nantes,voiture,2,20,200
+Nantes,Rennes,voiture,1.5,15,150
+Rennes,Le Mans,voiture,2,25,250
+Le Mans,Paris,voiture,2,20,200
+Lyon,Grenoble,bus,1,5,50
+Grenoble,Chambery,bus,1,5,50
+Chambery,Annecy,bus,1.5,10,100
+Annecy,Chamonix,bus,2,15,150
+Chamonix,Geneve,bus,1.5,10,100
+Geneve,Lausanne,train,1,5,50
+Lausanne,Montreux,train,1,5,50
+Montreux,Morges,train,1,5,50
+Morges,Geneve,train,1,5,50
+Paris,Amiens,train,2,20,200
+Amiens,Lille,train,1.5,15,150
+Lille,Bruxelles,train,1.5,15,150
+Bruxelles,Gand,train,1,10,100
+Gand,Anvers,train,1,10,100
+Anvers,Bruges,train,1,10,100
+Bruges,Bruxelles,train,1.5,15,150
+Paris,Tours,train,2.5,20,200
+Tours,Angers,train,1.5,15,150
+Angers,Nantes,train,1.5,15,150
+Nantes,Lorient,train,2,20,200
+Lorient,Quimper,train,1.5,15,150
+Quimper,Brest,train,1.5,15,150
+Brest,Rennes,train,2.5,20,200
+Rennes,Vannes,train,2,20,200
+Vannes,Nantes,train,1.5,15,150
+Nantes,La Rochelle,train,3,25,250
+La Rochelle,Bordeaux,train,2.5,20,200
+Bordeaux,Bayonne,train,2,20,200
+Bayonne,Biarritz,bus,0.5,5,50
+Biarritz,Pau,bus,1.5,10,100
+Pau,Toulouse,train,2.5,20,200
+Toulouse,Perpignan,train,3.5,30,300
+Perpignan,Nimes,train,2.5,20,200
+Nimes,Montpellier,train,0.5,5,50
