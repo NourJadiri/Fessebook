@@ -35,43 +35,29 @@ class Service:
                 G.add_edge(utilisateur.user_id, ami["id_ami"], annees=ami["annees_d_amitie"])
         return G
 
+    def pop_min(self, a_explorer):
+        min = math.inf
+        for i in a_explorer:
+            if a_explorer[i] < min:
+                min = a_explorer[i]
+                cle_min = i
+        a_explorer.pop(cle_min)
+        return cle_min, min
 
-    def pop_min(self,a_explorer):
-        d_min = math.inf
-        sommet_min = ""
-        for s, d in a_explorer.items():
-
-            if d < d_min:
-                d_min = d
-                sommet_min = s
-
-        a_explorer.pop(sommet_min)
-
-        return sommet_min, d_min
-
-
-    def dijkstra(self,depart, dico_utilisateurs):
-        a_explorer = {depart: 0}
-
-        for i in dico_utilisateurs:
-            if i != depart:
-                a_explorer[i] = math.inf
-
-        deja_collectes = {}
-
-        while len(a_explorer) != 0:
-            courant, distance = self.pop_min(a_explorer)
-            deja_collectes[courant] = distance
-
-            voisins = {}
-            for ami in dico_utilisateurs[courant].amis:
-                voisins[ami["id_ami"]] = ami["annees_d_amitie"]
-
-            i = 0
-            for v in voisins:
-                d = distance + dico_utilisateurs[courant].amis[i]["annees_d_amitie"]
-                i += 1
-                if v not in deja_collectes and d < a_explorer.get(v, math.inf):
-                    a_explorer[v] = d
-
-        return deja_collectes
+    def dijkstra(self, depart):
+        G = self.construire_graphe()
+        a_explorer = {}
+        deja_explore = {}
+        predecesseur = {}
+        for i in G.nodes:
+            a_explorer[i] = math.inf
+        a_explorer[depart] = 0
+        while a_explorer:
+            u, d = self.pop_min(a_explorer)
+            deja_explore[u] = d
+            for v in G.neighbors(u):
+                if v not in deja_explore:
+                    if a_explorer[v] > deja_explore[u] + G.edges[u, v]['annees']:
+                        a_explorer[v] = deja_explore[u] + G.edges[u, v]['annees']
+                        predecesseur[v] = u
+        return predecesseur, deja_explore
