@@ -1,0 +1,138 @@
+[
+  {
+    "username": "user1",
+    "full_name": "David Wilson",
+    "age": 57,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user3", "annees_d'amitie": 30},
+      {"id_ami": "user98", "annees_d'amitie": 20},
+      {"id_ami": "user29", "annees_d'amitie": 10},
+      {"id_ami": "user4", "annees_d'amitie": 15},
+      {"id_ami": "user11", "annees_d'amitie": 5}
+    ]
+  },
+  {
+    "username": "user2",
+    "full_name": "Hannah Johnson",
+    "age": 32,
+    "is_active": false,
+    "amis": [
+      {"id_ami": "user18", "annees_d'amitie": 8},
+      {"id_ami": "user80", "annees_d'amitie": 15},
+      {"id_ami": "user46", "annees_d'amitie": 5},
+      {"id_ami": "user63", "annees_d'amitie": 10},
+      {"id_ami": "user16", "annees_d'amitie": 2},
+      {"id_ami": "user90", "annees_d'amitie": 12},
+      {"id_ami": "user52", "annees_d'amitie": 7}
+    ]
+  },
+  {
+    "username": "user3",
+    "full_name": "Jack Turner",
+    "age": 30,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user73", "annees_d'amitie": 15},
+      {"id_ami": "user94", "annees_d'amitie": 8},
+      {"id_ami": "user45", "annees_d'amitie": 12},
+      {"id_ami": "user55", "annees_d'amitie": 5},
+      {"id_ami": "user6", "annees_d'amitie": 7},
+      {"id_ami": "user34", "annees_d'amitie": 3},
+      {"id_ami": "user88", "annees_d'amitie": 10},
+      {"id_ami": "user86", "annees_d'amitie": 20},
+      {"id_ami": "user17", "annees_d'amitie": 25}
+    ]
+  },
+  {
+    "username": "user4",
+    "full_name": "David Evans",
+    "age": 45,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user77", "annees_d'amitie": 10},
+      {"id_ami": "user54", "annees_d'amitie": 18},
+      {"id_ami": "user88", "annees_d'amitie": 5},
+      {"id_ami": "user45", "annees_d'amitie": 15},
+      {"id_ami": "user30", "annees_d'amitie": 8},
+      {"id_ami": "user79", "annees_d'amitie": 12}
+    ]
+  },
+  {
+    "username": "user5",
+    "full_name": "Ivy Smith",
+    "age": 37,
+    "is_active": false,
+    "amis": [
+      {"id_ami": "user63", "annees_d'amitie": 5},
+      {"id_ami": "user15", "annees_d'amitie": 8},
+      {"id_ami": "user67", "annees_d'amitie": 15},
+      {"id_ami": "user2", "annees_d'amitie": 10},
+      {"id_ami": "user88", "annees_d'amitie": 12},
+      {"id_ami": "user81", "annees_d'amitie": 3}
+    ]
+  },
+  {
+    "username": "user6",
+    "full_name": "Bob Wilson",
+    "age": 48,
+    "is_active": false,
+    "amis": [
+      {"id_ami": "user41", "annees_d'amitie": 12},
+      {"id_ami": "user83", "annees_d'amitie": 8},
+      {"id_ami": "user13", "annees_d'amitie": 15},
+      {"id_ami": "user86", "annees_d'amitie": 20},
+      {"id_ami": "user34", "annees_d'amitie": 5},
+      {"id_ami": "user45", "annees_d'amitie": 10}
+    ]
+  },
+  {
+    "username": "user7",
+    "full_name": "George Wilson",
+    "age": 46,
+    "is_active": false,
+    "amis": [
+      {"id_ami": "user28", "annees_d'amitie": 15},
+      {"id_ami": "user78", "annees_d'amitie": 10}
+    ]
+  },
+  {
+    "username": "user8",
+    "full_name": "David Turner",
+    "age": 25,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user11", "annees_d'amitie": 5}
+    ]
+  },
+  {
+    "username": "user9",
+    "full_name": "Bob White",
+    "age": 36,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user73", "annees_d'amitie": 15},
+      {"id_ami": "user84", "annees_d'amitie": 8},
+      {"id_ami": "user91", "annees_d'amitie": 10},
+      {"id_ami": "user29", "annees_d'amitie": 5},
+      {"id_ami": "user87", "annees_d'amitie": 20},
+      {"id_ami": "user88", "annees_d'amitie": 12},
+      {"id_ami": "user60", "annees_d'amitie": 3}
+    ]
+  },
+  {
+    "username": "user10",
+    "full_name": "David Evans",
+    "age": 59,
+    "is_active": true,
+    "amis": [
+      {"id_ami": "user57", "annees_d'amitie": 20},
+      {"id_ami": "user60", "annees_d'amitie": 8},
+      {"id_ami": "user91", "annees_d'amitie": 15},
+      {"id_ami": "user48", "annees_d'amitie": 10},
+      {"id_ami": "user80", "annees_d'amitie": 12},
+      {"id_ami": "user15", "annees_d'amitie": 5},
+      {"id_ami": "user25", "annees_d'amitie": 3}
+    ]
+  }
+]

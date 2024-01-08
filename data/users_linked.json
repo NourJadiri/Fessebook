@@ -1,0 +1,232 @@
+[
+    {
+        "username": "user1",
+        "password": "password1",
+        "full_name": "David Wilson",
+        "age": 57,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user9",
+                "annees_d_amitie": 5
+            },
+            {
+                "id_ami": "user6",
+                "annees_d_amitie": 15
+            }
+        ]
+    },
+    {
+        "username": "user2",
+        "password": "password2",
+        "full_name": "Hannah Johnson",
+        "age": 32,
+        "is_active": false,
+        "amis": [
+            {
+                "id_ami": "user9",
+                "annees_d_amitie": 12
+            },
+            {
+                "id_ami": "user10",
+                "annees_d_amitie": 2
+            },
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 7
+            },
+            {
+                "id_ami": "user3",
+                "annees_d_amitie": 5
+            }
+        ]
+    },
+    {
+        "username": "user3",
+        "password": "password3",
+        "full_name": "Jack Turner",
+        "age": 30,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 11
+            },
+            {
+                "id_ami": "user2",
+                "annees_d_amitie": 5
+            },
+            {
+                "id_ami": "user6",
+                "annees_d_amitie": 7
+            },
+            {
+                "id_ami": "user10",
+                "annees_d_amitie": 3
+            }
+        ]
+    },
+    {
+        "username": "user4",
+        "password": "password4",
+        "full_name": "David Evans",
+        "age": 45,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user3",
+                "annees_d_amitie": 15
+            }
+        ]
+    },
+    {
+        "username": "user5",
+        "password": "password5",
+        "full_name": "Ivy Smith",
+        "age": 37,
+        "is_active": false,
+        "amis": [
+            {
+                "id_ami": "user6",
+                "annees_d_amitie": 5
+            },
+            {
+                "id_ami": "user7",
+                "annees_d_amitie": 15
+            },
+            {
+                "id_ami": "user8",
+                "annees_d_amitie": 12
+            },
+            {
+                "id_ami": "user3",
+                "annees_d_amitie": 11
+            },
+            {
+                "id_ami": "user2",
+                "annees_d_amitie": 7
+            },
+            {
+                "id_ami": "user10",
+                "annees_d_amitie": 8
+            }
+        ]
+    },
+    {
+        "username": "user6",
+        "password": "password6",
+        "full_name": "Bob Wilson",
+        "age": 48,
+        "is_active": false,
+        "amis": [
+            {
+                "id_ami": "user1",
+                "annees_d_amitie": 15
+            },
+            {
+                "id_ami": "user9",
+                "annees_d_amitie": 10
+            },
+            {
+                "id_ami": "user10",
+                "annees_d_amitie": 8
+            },
+            {
+                "id_ami": "user3",
+                "annees_d_amitie": 7
+            },
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 5
+            }
+        ]
+    },
+    {
+        "username": "user7",
+        "password": "password7",
+        "full_name": "George Wilson",
+        "age": 46,
+        "is_active": false,
+        "amis": [
+            {
+                "id_ami": "user8",
+                "annees_d_amitie": 10
+            },
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 15
+            }
+        ]
+    },
+    {
+        "username": "user8",
+        "password": "password8",
+        "full_name": "David Turner",
+        "age": 25,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user9",
+                "annees_d_amitie": 25
+            },
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 12
+            },
+            {
+                "id_ami": "user7",
+                "annees_d_amitie": 10
+            }
+        ]
+    },
+    {
+        "username": "user9",
+        "password": "password9",
+        "full_name": "Bob White",
+        "age": 36,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user6",
+                "annees_d_amitie": 10
+            },
+            {
+                "id_ami": "user1",
+                "annees_d_amitie": 5
+            },
+            {
+                "id_ami": "user2",
+                "annees_d_amitie": 12
+            },
+            {
+                "id_ami": "user8",
+                "annees_d_amitie": 25
+            }
+        ]
+    },
+    {
+        "username": "user10",
+        "password": "password10",
+        "full_name": "David Evans",
+        "age": 59,
+        "is_active": true,
+        "amis": [
+            {
+                "id_ami": "user6",
+                "annees_d_amitie": 8
+            },
+            {
+                "id_ami": "user3",
+                "annees_d_amitie": 3
+            },
+            {
+                "id_ami": "user2",
+                "annees_d_amitie": 2
+            },
+            {
+                "id_ami": "user5",
+                "annees_d_amitie": 8
+            }
+        ]
+    }
+]
